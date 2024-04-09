@@ -38,7 +38,7 @@ const helmet = require("helmet");
 //Express Mongo Sanitize - for securit purpose!
 const mongoSanitize = require("express-mongo-sanitize");
 
-const dbUrl = process.env.SECRET;
+const dbUrl = process.env.DB_URL;
 
 //Online Server!!!
 // const dbURL = process.env.DB_URL;
